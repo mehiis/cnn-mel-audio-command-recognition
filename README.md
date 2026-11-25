@@ -6,25 +6,24 @@ This repository does not contain the audio files or mel-spectograms. In order to
 Create folders with the following structure:  
 
 ```text
-cnn-mel-audio-command-recognition/
-└── data/
-    ├── train/
-    │   ├── finnish/
-    │   │   ├── paalle/
-    │   │   ├── pysahdy/
-    │   │   ├── ylos/
-    │   │   ├── alas/
-    │   │   ├── oikea/
-    │   │   └── vasen/
-    │   └── english/
-    │       ├── start/
-    │       ├── stop/
-    │       ├── up/
-    │       ├── down/
-    │       ├── right/
-    │       └── left/
-    ├── test/
-    └── validation/
+data/
+├── audio-samples/          
+│   ├── finnish/
+│   │   └── {train,test,validation}/<command>/
+│   └── english/
+│       └── {train,test,validation}/<command>/
+│
+├── audio-wav/             
+│   ├── finnish/
+│   │   └── {train,test,validation}/<command>/
+│   └── english/
+│       └── {train,test,validation}/<command>/
+│
+└── image-samples/ 
+    ├── finnish/
+    │   └── {train,test,validation}/<command>/
+    └── english/
+        └── {train,test,validation}/<command>/
 ```
 
 The test and validation folders must contain exactly the same internal folder structure as train, including both language folders and all corresponding command category folders.
