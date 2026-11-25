@@ -7,23 +7,74 @@ Create folders with the following structure:
 
 ```text
 data/
-├── audio-samples/          
-│   ├── finnish/
-│   │   └── {train,test,validation}/<command>/
-│   └── english/
-│       └── {train,test,validation}/<command>/
 │
-├── audio-wav/             
+├── audio-samples/
 │   ├── finnish/
-│   │   └── {train,test,validation}/<command>/
+│   │   ├── train/
+│   │   │   ├── ylos/
+│   │   │   ├── alas/
+│   │   │   ├── vasen/
+│   │   │   ├── oikea/
+│   │   │   ├── paalle/
+│   │   │   └── pysahdy/
+│   │   ├── test/
+│   │   └── validation/
+│   │
 │   └── english/
-│       └── {train,test,validation}/<command>/
+│       ├── train/
+│       │   ├── up/
+│       │   ├── down/
+│       │   ├── left/
+│       │   ├── right/
+│       │   ├── stop/
+│       │   └── start/
+│       ├── test/
+│       └── validation/
 │
-└── image-samples/ 
+├── audio-wav/
+│   ├── finnish/
+│   │   ├── train/
+│   │   │   ├── ylos/
+│   │   │   ├── alas/
+│   │   │   ├── vasen/
+│   │   │   ├── oikea/
+│   │   │   ├── paalle/
+│   │   │   └── pysahdy/
+│   │   ├── test/
+│   │   └── validation/
+│   │
+│   └── english/
+│       ├── train/
+│       │   ├── up/
+│       │   ├── down/
+│       │   ├── left/
+│       │   ├── right/
+│       │   ├── stop/
+│       │   └── start/
+│       ├── test/
+│       └── validation/
+│
+└── image-samples/
     ├── finnish/
-    │   └── {train,test,validation}/<command>/
+    │   ├── train/
+    │   │   ├── ylos/
+    │   │   ├── alas/
+    │   │   ├── vasen/
+    │   │   ├── oikea/
+    │   │   ├── paalle/
+    │   │   └── pysahdy/
+    │   ├── test/
+    │   └── validation/
+    │
     └── english/
-        └── {train,test,validation}/<command>/
-```
+        ├── train/
+        │   ├── up/
+        │   ├── down/
+        │   ├── left/
+        │   ├── right/
+        │   ├── stop/
+        │   └── start/
+        ├── test/
+        └── validation/
 
 The test and validation folders must contain exactly the same internal folder structure as train, including both language folders and all corresponding command category folders.
