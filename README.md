@@ -76,5 +76,5 @@ data/
         │   └── start/
         ├── test/
         └── validation/
-
+```
 The test and validation folders must contain exactly the same internal folder structure as train, including both language folders and all corresponding command category folders.
