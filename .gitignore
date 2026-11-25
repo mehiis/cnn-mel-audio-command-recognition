@@ -93,3 +93,7 @@ $RECYCLE.BIN/
 
 # audio files and mel-spectograms located here
 data/
+
+#env data just in case eventhought not used
+.env
+**/.env
