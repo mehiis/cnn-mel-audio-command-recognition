@@ -11,62 +11,51 @@ data/
 ├── audio-samples/
 │   ├── train/
 │   │   ├── finnish/
-│   │   │   └── train/
-│   │   │       ├── ylos/
-│   │   │       ├── alas/
-│   │   │       ├── vasen/
-│   │   │       ├── oikea/
-│   │   │       ├── paalle/
-│   │   │       └── pysahdy/
+│   │   │   ├── train/
+│   │   │   │   ├── ylos/
+│   │   │   │   ├── alas/
+│   │   │   │   ├── vasen/
+│   │   │   │   ├── oikea/
+│   │   │   │   ├── paalle/
+│   │   │   │   └── pysahdy/
+│   │   │   ├── test/
+│   │   │   └── validation/
+│   │   │
 │   │   └── english/
-│   │       └── train/
-│   │           ├── up/
-│   │           ├── down/
-│   │           ├── left/
-│   │           ├── right/
-│   │           ├── stop/
-│   │           └── start/
+│   │       ├── train/
+│   │       │   ├── up/
+│   │       │   ├── down/
+│   │       │   ├── left/
+│   │       │   ├── right/
+│   │       │   ├── stop/
+│   │       │   └── start/
+│   │       ├── test/
+│   │       └── validation/
 │   │
 │   ├── test/
 │   │   ├── finnish/
-│   │   │   └── train/
-│   │   │       ├── ylos/
-│   │   │       ├── alas/
-│   │   │       ├── vasen/
-│   │   │       ├── oikea/
-│   │   │       ├── paalle/
-│   │   │       └── pysahdy/
+│   │   │   ├── train/
+│   │   │   ├── test/
+│   │   │   └── validation/
 │   │   └── english/
-│   │       └── train/
-│   │           ├── up/
-│   │           ├── down/
-│   │           ├── left/
-│   │           ├── right/
-│   │           ├── stop/
-│   │           └── start/
+│   │       ├── train/
+│   │       ├── test/
+│   │       └── validation/
 │   │
 │   └── validation/
 │       ├── finnish/
-│       │   └── train/
-│       │       ├── ylos/
-│       │       ├── alas/
-│       │       ├── vasen/
-│       │       ├── oikea/
-│       │       ├── paalle/
-│       │       └── pysahdy/
+│       │   ├── train/
+│       │   ├── test/
+│       │   └── validation/
 │       └── english/
-│           └── train/
-│               ├── up/
-│               ├── down/
-│               ├── left/
-│               ├── right/
-│               ├── stop/
-│               └── start/
+│           ├── train/
+│           ├── test/
+│           └── validation/
 │
 ├── audio-wav/
-│   └── (SAME BRANCHING)
+│   └── (SAME BRANCHING AS "audio-samples/")
 │
 └── image-samples/
-    └── (SAME BRANCHING)
+    └── (SAME BRANCHING AS "audio-samples/")
 ```
 The test and validation folders must contain exactly the same internal folder structure as train, including both language folders and all corresponding command category folders.
