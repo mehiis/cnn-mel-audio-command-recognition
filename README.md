@@ -9,72 +9,64 @@ Create folders with the following structure:
 data/
 │
 ├── audio-samples/
-│   ├── finnish/
-│   │   ├── train/
-│   │   │   ├── ylos/
-│   │   │   ├── alas/
-│   │   │   ├── vasen/
-│   │   │   ├── oikea/
-│   │   │   ├── paalle/
-│   │   │   └── pysahdy/
-│   │   ├── test/
-│   │   └── validation/
+│   ├── train/
+│   │   ├── finnish/
+│   │   │   └── train/
+│   │   │       ├── ylos/
+│   │   │       ├── alas/
+│   │   │       ├── vasen/
+│   │   │       ├── oikea/
+│   │   │       ├── paalle/
+│   │   │       └── pysahdy/
+│   │   └── english/
+│   │       └── train/
+│   │           ├── up/
+│   │           ├── down/
+│   │           ├── left/
+│   │           ├── right/
+│   │           ├── stop/
+│   │           └── start/
 │   │
-│   └── english/
-│       ├── train/
-│       │   ├── up/
-│       │   ├── down/
-│       │   ├── left/
-│       │   ├── right/
-│       │   ├── stop/
-│       │   └── start/
-│       ├── test/
-│       └── validation/
+│   ├── test/
+│   │   ├── finnish/
+│   │   │   └── train/
+│   │   │       ├── ylos/
+│   │   │       ├── alas/
+│   │   │       ├── vasen/
+│   │   │       ├── oikea/
+│   │   │       ├── paalle/
+│   │   │       └── pysahdy/
+│   │   └── english/
+│   │       └── train/
+│   │           ├── up/
+│   │           ├── down/
+│   │           ├── left/
+│   │           ├── right/
+│   │           ├── stop/
+│   │           └── start/
+│   │
+│   └── validation/
+│       ├── finnish/
+│       │   └── train/
+│       │       ├── ylos/
+│       │       ├── alas/
+│       │       ├── vasen/
+│       │       ├── oikea/
+│       │       ├── paalle/
+│       │       └── pysahdy/
+│       └── english/
+│           └── train/
+│               ├── up/
+│               ├── down/
+│               ├── left/
+│               ├── right/
+│               ├── stop/
+│               └── start/
 │
 ├── audio-wav/
-│   ├── finnish/
-│   │   ├── train/
-│   │   │   ├── ylos/
-│   │   │   ├── alas/
-│   │   │   ├── vasen/
-│   │   │   ├── oikea/
-│   │   │   ├── paalle/
-│   │   │   └── pysahdy/
-│   │   ├── test/
-│   │   └── validation/
-│   │
-│   └── english/
-│       ├── train/
-│       │   ├── up/
-│       │   ├── down/
-│       │   ├── left/
-│       │   ├── right/
-│       │   ├── stop/
-│       │   └── start/
-│       ├── test/
-│       └── validation/
+│   └── (SAME BRANCHING)
 │
 └── image-samples/
-    ├── finnish/
-    │   ├── train/
-    │   │   ├── ylos/
-    │   │   ├── alas/
-    │   │   ├── vasen/
-    │   │   ├── oikea/
-    │   │   ├── paalle/
-    │   │   └── pysahdy/
-    │   ├── test/
-    │   └── validation/
-    │
-    └── english/
-        ├── train/
-        │   ├── up/
-        │   ├── down/
-        │   ├── left/
-        │   ├── right/
-        │   ├── stop/
-        │   └── start/
-        ├── test/
-        └── validation/
+    └── (SAME BRANCHING)
 ```
 The test and validation folders must contain exactly the same internal folder structure as train, including both language folders and all corresponding command category folders.
